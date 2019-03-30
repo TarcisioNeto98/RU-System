@@ -1,0 +1,67 @@
+body{
+	font-family: "Arial", "Helvetica", sans-serif;
+	background-color: rgb(72, 61, 139);
+	font-weight: bold;
+}
+
+.logo{
+	position: relative;
+	top: 70px;
+	left: 552px;
+	font-size: 50px;
+	color: white;
+	width: 265px;
+}
+
+form{
+	position: relative;
+	top: 110px;
+	color: white;
+	width: 350px;
+	height: 345px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+
+form input[type="text"], input[type="password"]{
+	width: 325px;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+form input{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	height: 35px;
+	position: relative;
+	left: 10px;
+}
+
+form input[type="submit"]{
+	margin-bottom: 5px;
+	width: 330px;
+	height: 38px;
+	background-color: rgba(0,0,139, 0.7);
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+form label, a{
+	position: relative;
+	left: 10px;
+}
+
+form a{
+	text-decoration: none;
+	color:blueviolet;
+}
+
+
+form p{
+	position: relative;
+	left: 10px;
+	font-size: 15px;
+	color: darkred;
+}

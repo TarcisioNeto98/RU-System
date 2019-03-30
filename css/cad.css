@@ -1,0 +1,112 @@
+.cardapio p{
+	width: 846px;
+	padding: 4px 0;
+	padding-left: 4px;
+	font-size: 20px;
+	color: rgb(72, 61, 139);
+	background-color: rgba(220,220,220, 0.6);
+}
+
+.cardapio{
+	height: inherit;
+}
+
+.cadastro{
+	width: 850px;
+	height: 470px;
+	background-color: transparent;
+	color: rgb(72, 61, 139);
+	box-shadow: inset 0 0 1px 1px rgb(220,220,220);
+}
+
+.cadastro, .cardapio p{
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+
+.cadastro input{
+	position: static;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.cadastro #inp{
+	position:static;
+	width: 812px;
+}
+
+.cadastro #Cpf, .banner-nascimento input{
+	width: 230px;
+}
+
+input{
+	height: 25px;
+}
+
+label{
+	margin-left: 10px;
+}
+
+#dt{
+	margin-left: 270px;
+	margin-right: 50px;
+}
+
+input[type="date"]{
+	width: 143px;
+	margin-left: 56px;
+	margin-right: 50px;
+}
+
+#est{
+	margin-right: 300px;
+}
+
+select{
+	width: 380px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 7px;
+	height: 32px;
+	background-color: white;
+	border-width: 0;
+	box-shadow: inset 0 0 0 1px rgb(220,220,220);
+}
+
+#br{
+	margin-left: 360px;
+	margin-right: 150px;
+}
+
+input[name="bairro"]{
+	margin-left: 28px;
+	margin-right: 10px;
+}
+
+#comp{
+	margin-right: 300px;
+}
+
+input[name="complemento"]{
+	width: 390px;
+}
+
+input[name="cidade"]{
+	width: 390px;
+}
+
+form input[type="submit"]{
+	margin-bottom: 5px;
+	width: 100px;
+	height: 38px;
+	background-color: rgba(0,0,139, 0.7);
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+.menu-direita{
+	width: 100%;
+}
